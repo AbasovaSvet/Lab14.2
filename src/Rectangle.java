@@ -9,4 +9,11 @@ public class Rectangle {
     public int area(){ //площадь
         return (length*width);
     }
+
+    @Override
+    public String toString() {
+        return "Rectangle\n" +
+                "length = " + length +
+                ", width = " + width;
+    }
 }
